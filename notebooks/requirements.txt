@@ -1,0 +1,11 @@
+matplotlib==3.7.*
+mysql-connector-python==8.*
+nltk==3.*
+numpy==1.*
+pandas==2.*
+scikit-learn==1.*
+scipy==1.*
+seaborn==0.*
+spacy==3.*
+tqdm==4.*
+wordfreq==3.*

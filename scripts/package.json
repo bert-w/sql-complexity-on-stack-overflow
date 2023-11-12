@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "name": "stackdata",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+    },
+    "type": "module",
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+    }
+}

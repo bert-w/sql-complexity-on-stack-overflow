@@ -1,0 +1,13 @@
+<form>
+    <input type="hidden" name="owner_user_id" value="<%= query.owner_user_id %>"/>
+    <input type="hidden" name="search" value="<%= query.search %>"/>
+    <input type="hidden" name="table" value="<%= query.table %>"/>
+    <div class="text-center my-3">
+        <div class="btn-group">
+            <a href="#" class="btn btn-outline-primary disabled">Page <%= query.page %></a>
+            <button name="page" value="1" type="submit" class="btn btn-outline-primary">&lt;&lt;</button>
+            <button name="page" value="<%= query.page > 1 ? query.page - 1 : 1 %>" type="submit" class="btn btn-outline-primary">&lt;</button>
+            <button name="page" value="<%= query.page + 1 %>" type="submit" class="btn btn-outline-primary">&gt;</button>
+        </div>
+    </div>
+</form>
